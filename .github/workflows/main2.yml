@@ -36,8 +36,7 @@ jobs:
 
   variable_job: 
     env: 
-    - LOCAL_VAR: "Only variable_jobs can use this.."
-    - SECRET_TEXT: ${{secrets.SUPER_SECRET_TEXT}}
+      SECRET_TEXT: ${{secrets.SUPER_SECRET_TEXT}}
     runs-on: ubuntu-latest
     steps:
     - name: Print global variable
