@@ -1,0 +1,20 @@
+git clone 
+
+# a .gitignore file sits at the root of the project and tells git
+# what files to ignore when you run commands like `git add .`
+
+# To ignore password.txt.. just add password.txt
+password.txt
+
+# To ignore all files ending in js
+*.js
+
+*.md
+# Ignore all files ending in .md
+# But keeping README.md
+!README.md
+
+# Ignores everything in /secrets directory
+/secrets
+
+# https://github.com/github/gitignore - Useful guide of .gitIgnore files

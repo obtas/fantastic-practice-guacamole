@@ -46,3 +46,7 @@ jobs:
       run: echo $LOCAL_VAR
     - name: Print secret variable
       run: echo $SECRET_TEXT
+
+  # Can only run one variable at a time
+  #  - name: print Local variable
+  #    run: echo $LOCAL_VAR
