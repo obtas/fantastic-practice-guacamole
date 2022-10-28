@@ -14,3 +14,14 @@ jobs:
     - run: pwd
     - run: ls
     - run: echo 'Job status is ${{job.status}}'
+
+# This job will be focused on cloning our repo
+  clone_demo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out Repo
+      uses: actions/checkout@v3
+    - name: List contents of current directory
+      run: ls -al
+    - name: Run a python script
+      run: python script.py, maths.py
