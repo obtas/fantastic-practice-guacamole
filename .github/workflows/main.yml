@@ -25,4 +25,5 @@ jobs:
       run: ls -al
     - name: Run a python script
       run: python script.py
+    - name: Run a second python script
       run: python maths.py
