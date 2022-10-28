@@ -24,4 +24,5 @@ jobs:
     - name: List contents of current directory
       run: ls -al
     - name: Run a python script
-      run: python script.py, maths.py
+      run: python script.py
+      run: python maths.py
